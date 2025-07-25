@@ -12,7 +12,7 @@ function App() {
 
   return (
     <UserContextProvider>
-      <h2>React with Chai</h2>
+      <h2 className='p-4 bg-gray-600 text-white'>React with Chai</h2>
       <Login />
       <Profile />
     </UserContextProvider>
